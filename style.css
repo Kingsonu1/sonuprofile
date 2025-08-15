@@ -132,7 +132,7 @@ button:nth-child(2):hover{
 }
 .circle:nth-child(2){
   width: 30rem;
-  background-image: url("/profile.jpg");
+  background-image: url("./profile.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   border: 1rem solid white;
@@ -161,5 +161,6 @@ button:nth-child(2):hover{
 .navlist li a:hover::after, .navlist .active::after{
   transform: scaleX(1);
   transform-origin: bottom left;
+
 
 }
